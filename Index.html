@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+    <title>Robotics 668</title>
+    <link rel="stylesheet" href="styleSheet.css">
+    <link rel="stylesheet" href="Normalize.css">
+    <script type="text/javascript">
+var slideimages = new Array() // create new array to preload images
+slideimages[0] = new Image() // create new instance of image object
+slideimages[0].src = "Img/ROB9.png" // set image src property to image path, preloading image in the process
+slideimages[1] = new Image()
+slideimages[1].src = "Img/ROB2.png"
+slideimages[2] = new Image()
+slideimages[2].src = "Img/ROB4.png"
+slideimages[3] = new Image() // create new instance of image object
+slideimages[3].src = "Img/CLASS.jpg" // set image src property to image path, preloading image in the process
+slideimages[4] = new Image()
+slideimages[4].src = "Img/CLA.png"
+slideimages[5] = new Image()
+slideimages[5].src = "Img/CLA2.png"
+slideimages[6] = new Image() // create new instance of image object
+slideimages[6].src = "Img/CLA3.png" // set image src property to image path, preloading image in the process
+slideimages[7] = new Image()
+slideimages[7].src = "Img/ROB10.png"
+slideimages[8] = new Image()
+slideimages[8].src = "Img/ROB5.png"
+slideimages[9] = new Image()
+slideimages[9].src = "Img/ROB6.png"
+slideimages[10] = new Image()
+slideimages[10].src = "Img/ROB7.png"
+slideimages[11] = new Image()
+slideimages[11].src = "Img/ROB8.png"
+</script>
+</head>
+  <body BACKGROUND="Img/Background 2.png" BGPROPERTIES="FIXED" style="background-position:top; font-size: 2em;">
+<header class="container" id="HOME">
+      <a href="index.html">
+        <center><h1 style="font-size: 4em;"><strong>Apes Of Wrath</strong></h1>
+        </center>
+      </a>
+       <strong>
+       
+       <nav> 
+       </nav>
+       </strong>
+  <nav class="container">
+<strong><ul style="font-size:4em;">
+          <li>Home</li>
+          <li><span class="TextSize"><strong><a href="rose.html">News</a></strong></span></li>
+          <li><span class="TextSize"><strong><a href="About.html">About</a></strong></span></li>
+          <li><span class="TextSize"><strong><a href="bu.html">First</a></strong></span></li>
+          <li><span class="TextSize"><strong><a href="bi.html">Events</a></strong></span></li>
+          <li><span class="TextSize"><strong><a href="about.html">Pioneer</a></strong></span></li>
+          <li><span class="TextSize"><strong><a href="MEDIAARC.html">Media Archive</a></strong></span></li>
+         </ul></strong>
+      </nav>
+  </header>
+
+<center><img src="Img/CL.jpg" class="slide" id="slide"width="89%" height="auto" style="padding-top:10%;padding-bottom:10px;" /></center>
+                          
+                          <script type="text/javascript">
+    var step=0
+    
+    function slideit(){
+     //if browser does not support the image object, exit.
+     if (!document.images)
+      return
+     document.getElementById('slide').src = slideimages[step].src
+     if (step<11)
+      step++
+     else
+      step=0
+     //call function "slideit()" every 2.5 seconds
+     setTimeout("slideit()",2500)
+    }
+    
+    slideit()
+
+                                </script>
+  <hr />
+  <p></p>
+  <section id="gallery"   style="list-style:none">
+        <ul  style="list-style:none">
+          <a href="">
+          	 <li>
+                <img src="Img/java5.png" width="100%" height="auto"alt="">
+                <center><p style="color:#fff;">Java</p></center>
+                <p id="HOME" style="font-size:30px; padding:6%">Learn to control your robot and know how it works.</p>
+         	 </li>
+          </a>
+           <a href="Web.html">
+          	 <li>
+                <img src="Img/web5.png" width="100%" height="auto"alt="">
+                <center><p style="color:#fff">Web</p></center>
+                <p id="HOME" style="font-size:30px; padding:6%">Program the robotics websites using html and css.</p>
+         	 </li>
+          </a>
+           <a href="">
+          	 <li>
+                <img src="Img/legal5.png" width="100%" height="auto"alt="">
+                <center><p style="color:#fff">Legal</p></center>
+                <p id="HOME" style="font-size:30px; padding:6%">Partner with politians, write letters to sponsors and more.</p>
+         	 </li>
+          </a>
+          <a href=".html">
+          	 <li>
+                <img src="Img/CAD5.png" width="100%" height="auto"alt="">
+                <center><p style="color:#fff">CAD</p></center>
+                <p id="HOME" style="font-size:30px; padding:6%">Design almost everything about the robot including parts.</p>
+         	 </li>
+          </a>
+          <a href="CAM.html">
+          	 <li>
+                <img src="Img/CAM5.png" width="100%" height="auto"alt="">
+                <center><p style="color:#fff">Media</p></center>
+                <p id="HOME" style="font-size:30px; padding:6%">Shoot picutes, record games, edit videos, and more.</p>
+         	 </li>
+          </a>
+          <a href="">
+          	 <li>
+                <img src="Img/mech5.png" width="100%" height="auto"alt="">
+                <center><p style="color:#fff">Building</p></center>
+                <p id="HOME" style="font-size:30px; padding:6%">Learn how to build robots, discover how they work, and work with real tools.</p>
+         	 </li>
+          </a>
+          <a href="">
+          	 <li>
+                <img src="Img/other5.png" width="100%" height="auto"alt="">
+                <center><p style="color:#fff;">Other</p></center>
+                <p id="HOME" style="font-size:30px; padding:6%">Learn about a job that is not usually listed.</p>
+         	 </li>
+          </a>
+        </ul>
+      </section>
+  
+    <div>
+      
+	<footer>
+  		<nav id="f">
+          <ul>
+              <li>Mobile Version 0.08A</li>
+              <li><span class="TextSize"><strong><a href="About.html">About</a></strong></span></li>
+              <li><span class="TextSize"><strong><a href="About.html#Co">Contact</a></strong></span></li>
+              <li><span class="TextSize"><strong><a href="About.html#TI">Team Information</a></strong></span></li>
+            <li><p>©2015 Apes Of Wrath</p></li>
+         </ul>
+        </nav>
+	</footer>
+  </div>
+</body>
+</html>
